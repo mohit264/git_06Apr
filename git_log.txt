@@ -1,0 +1,103 @@
+ echo "Hellow, World!"
+ git hash-object
+ git hash-object "Hello, World!"
+ echo "Hello, World!"
+ echo "Hello, World!" | git hash-object
+ cls
+ clear
+ echo "Hello, World!" | git hash-object --stdin
+ git cat-file -p 8ab686eafeb1f44702738c8b0f24f2567c36da6d
+ ls
+ cat LICENSE.txt 
+ cls
+ clear
+ git cat-file -p 8ab686eafeb1f44702738c8b0f24f2567c36da6d
+ git init
+ cd /d/git_06_04_24
+ mkdir /d/git_06_04_24
+ cd /d/git_06_04_24
+ clear
+ git cat-file -p 8ab686eafeb1f44702738c8b0f24f2567c36da6d
+ clear
+ echo "Hello, World!" | git hash-object --stdin
+ git init
+ git cat-file -p 8ab686eafeb1f44702738c8b0f24f2567c36da6d
+ cd /tmp/
+ clear
+ clear
+ cd /d/test
+ echo "Hello, World!" | git hash-object --stdin -w
+ cd /d/git_06_04_24/
+ cleaar
+ clear
+ ls -a
+ echo "Hello, World!" | git hash-object --stdin -w
+ git cat-file -p 8ab686eafeb1f44702738c8b0f24f2567c36da6d 
+ git cat-file -t 8ab686eafeb1f44702738c8b0f24f2567c36da6d 
+ echo "Hello, world!" | git hash-object --stdin
+ echo "Hello, World!" | git hash-object --stdin
+ clear
+ echo -n "Hello, World!" | git hash-object --stdin
+ echo -n -e "blob 13\0Hello, World!" 
+ echo -n -e "blob 13\0Hello, World!" | shasum 
+ echo -n "Hello, World!" | shasum 
+ echo -n -e "blob 13\0Hello, World!" | shasum 
+ clear
+ echo "Hello, World!" | git hash-object --stdin
+ echo "Hello, World!" | git hash-object --stdin -w
+ echo "Hello, world!" | git hash-object --stdin
+ vim
+ echo "Hello, World!"
+ echo -n "Hello, World!"
+ clear
+ echo -n "Hello, World!" | git hash-object
+ echo -n "Hello, World!" | git hash-object --stdin
+ echo -n "Hello, World!" | shasum
+ echo -n -e "blob 13\0Hello, World!"
+ echo -n -e "blob 13\0Hello, World!" | shasum
+ echo -n "Hello, World!" | git hash-object --stdin -w
+ clear
+ git status
+ echo "Hello, World!" >> greetings.txt
+ ls
+ git status
+ clear
+ git status
+ clear
+ git status
+ cat .git/refs/heads/
+ git commit -m "Added Greetings File"
+ cat .git/refs/heads/master 
+ git config user.name
+ git config user.email
+ clear
+ git cat-file -t e651165b565
+ git cat-file -p e651165b565
+ git status
+ clear
+ git add "New Greetings.txt "
+ git add "New Greetings.txt"
+ git commit -m "Added new greetings"
+ git log
+ git cat-file -p dcf71ce8
+ git cat-file -p 44405a4258075e
+ clear
+ echo "Hello some garbage" | git hash-object --stdin -w
+ git status
+ git cat-file -p 
+ git cat-file -p 9994454a
+ clear
+ git log
+ git cat-file -p dcf71ce8b9
+ git status
+ git restore New Greetings.txt
+ git reset --hard
+ clear
+ git status
+ git restore greetings.txt
+ git ls
+ git status
+ git restore "New Greetings.txt"
+ git log
+ clear
+ history >> git_log.txt
