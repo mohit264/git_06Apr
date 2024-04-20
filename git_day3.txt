@@ -1,0 +1,103 @@
+git log
+git log -1
+clear
+git log -1
+git cat-file -t 
+56df
+clear
+git log -1
+git cat-file 56df
+clear
+git cat-file -t 56df
+git cat-file -t 56d
+git cat-file -p 56df
+git cat-file -p b247dbb
+git cat-file -p 08bb8e655b
+clear
+vim file1.txt
+cat file1.txt 
+vim file2.txt
+cat file2.txt
+git hash-object file1.txt
+git hash-object file2.txt
+clear
+git hash-object file1.txt -w
+git hash-object file2.txt -w
+git status
+git cat-file -p aec4c
+vim test2.txt
+git status
+clear
+git status
+git cat-file -p aec4c
+git cat-file -p 723fdb
+git log -1
+git cat-file -p 56dff
+git cat-file -p b247db
+git add myfolder/
+git status
+git commit -m "New folder added"
+git log
+git cat-file -p 573ce06030
+git cat-file -p e923dc8c
+git cat-file -p d41ccdf6
+clear
+git cat-file -p d41ccdf6
+vim temp-tree
+cat temp-tree | git mktree
+git cat-file -t 121ead
+git cat-file -p 121ead
+git cat-file -p aec4c36312006
+git add mytree/
+git commit -m "new mytree folder added"
+git log -1
+git cat-file -p 46b4ec2da17cc
+git cat-file -p f3659aba4
+git cat-file -p 6509d375
+git status
+git add temp-tree
+git status
+git commit -m "Added temp-tree"
+echo "Hello, Git batch day 3" | git hash-object --stdin
+clear
+git cat-file -p 46260dc6f1886
+git status
+git add .
+git commit -m "updated file 1"
+git cat-file -p 3ae72c7
+git cat-file -p c9814359
+clear
+git cat-file -p f29b5ec66e8
+git add .
+git status
+git commit -m "Added new directories"
+git cat-file -p 44d8919
+clear
+git cat-file -p 330c7deec3fda
+git cat-file -p ee3f98484cfe3
+git cat-file -p f29b5ec66e8d
+cat temp-tree | mktree
+cat temp-tree | git mktree
+git cat-file -t 121eadb64c
+git cat-file -p 121eadb64c
+git cat-file -p aec4c36312
+git cat-file -p d41ccdf6d0154dfe
+git cat-file -p f29b5ec66e
+git status
+git hash-object mytree/file1.txt
+celar
+clear
+git log -3
+git cat-file -p 44d8919ef8
+git cat-file -p 
+git cat-file -p 330c7deec3f
+git cat-file -p f29b5ec6
+clear
+git cat-file -p d41ccdf6d01
+git cat-file -p f29b5ec6
+git log -1
+git cat-file -p 44d8919ef
+git cat-file -p 3ae72c7c02e23a3f
+git cat-file -p c9814359fae
+clear
+history >> git_day3.txt

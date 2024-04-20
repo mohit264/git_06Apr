@@ -1,0 +1,103 @@
+  519  git log
+  520  git log -1
+  521  clear
+  522  git log -1
+  523  git cat-file -t 
+  524  56df
+  525  clear
+  526  git log -1
+  527  git cat-file 56df
+  528  clear
+  529  git cat-file -t 56df
+  530  git cat-file -t 56d
+  531  git cat-file -p 56df
+  532  git cat-file -p b247dbb
+  533  git cat-file -p 08bb8e655b
+  534  clear
+  535  vim file1.txt
+  536  cat file1.txt 
+  537  vim file2.txt
+  538  cat file2.txt
+  539  git hash-object file1.txt
+  540  git hash-object file2.txt
+  541  clear
+  542  git hash-object file1.txt -w
+  543  git hash-object file2.txt -w
+  544  git status
+  545  git cat-file -p aec4c
+  546  vim test2.txt
+  547  git status
+  548  clear
+  549  git status
+  550  git cat-file -p aec4c
+  551  git cat-file -p 723fdb
+  552  git log -1
+  553  git cat-file -p 56dff
+  554  git cat-file -p b247db
+  555  git add myfolder/
+  556  git status
+  557  git commit -m "New folder added"
+  558  git log
+  559  git cat-file -p 573ce06030
+  560  git cat-file -p e923dc8c
+  561  git cat-file -p d41ccdf6
+  562  clear
+  563  git cat-file -p d41ccdf6
+  564  vim temp-tree
+  565  cat temp-tree | git mktree
+  566  git cat-file -t 121ead
+  567  git cat-file -p 121ead
+  568  git cat-file -p aec4c36312006
+  569  git add mytree/
+  570  git commit -m "new mytree folder added"
+  571  git log -1
+  572  git cat-file -p 46b4ec2da17cc
+  573  git cat-file -p f3659aba4
+  574  git cat-file -p 6509d375
+  575  git status
+  576  git add temp-tree
+  577  git status
+  578  git commit -m "Added temp-tree"
+  579  echo "Hello, Git batch day 3" | git hash-object --stdin
+  580  clear
+  581  git cat-file -p 46260dc6f1886
+  582  git status
+  583  git add .
+  584  git commit -m "updated file 1"
+  585  git cat-file -p 3ae72c7
+  586  git cat-file -p c9814359
+  587  clear
+  588  git cat-file -p f29b5ec66e8
+  589  git add .
+  590  git status
+  591  git commit -m "Added new directories"
+  592  git cat-file -p 44d8919
+  593  clear
+  594  git cat-file -p 330c7deec3fda
+  595  git cat-file -p ee3f98484cfe3
+  596  git cat-file -p f29b5ec66e8d
+  597  cat temp-tree | mktree
+  598  cat temp-tree | git mktree
+  599  git cat-file -t 121eadb64c
+  600  git cat-file -p 121eadb64c
+  601  git cat-file -p aec4c36312
+  602  git cat-file -p d41ccdf6d0154dfe
+  603  git cat-file -p f29b5ec66e
+  604  git status
+  605  git hash-object mytree/file1.txt
+  606  celar
+  607  clear
+  608  git log -3
+  609  git cat-file -p 44d8919ef8
+  610  git cat-file -p 
+  611  git cat-file -p 330c7deec3f
+  612  git cat-file -p f29b5ec6
+  613  clear
+  614  git cat-file -p d41ccdf6d01
+  615  git cat-file -p f29b5ec6
+  616  git log -1
+  617  git cat-file -p 44d8919ef
+  618  git cat-file -p 3ae72c7c02e23a3f
+  619  git cat-file -p c9814359fae
+  620  clear
+  621  history >> git_day3.txt
