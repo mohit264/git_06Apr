@@ -1,0 +1,59 @@
+
+git status
+clear
+git status
+git log
+clear
+git cat-file -p  44d8919ef892fc583e985caafc76b02d1b0e191
+git cat-file -p 330c7de
+git cat-file -p aec4
+clear
+git log-1
+git log -1
+git log -2
+git cat-file -p ecfc9a7506
+git cat-file -p d4181e8
+git cat-file -p f8383403
+git cat-file -p 34533418c
+cat .git/refs/heads/
+ls .git/refs/heads/
+clear
+cat .git/refs/heads/master 
+echo "Testing Master Reference to latest commit" > branch.txt
+git status
+git add branch.txt 
+git status
+git commit -m "Added new file"
+cat .git/refs/heads/master 
+clear
+git cat-file -p e73bc3246
+git cat-file -p 0593bc9f
+cat .git/refs/heads/master 
+clear
+git branch
+git branch feature/my-feature1
+git branch
+cat .git/refs/heads/feature/my-feature1 
+git switch feature/my-feature1 
+cat .git/HEAD 
+clear
+git branch
+echo "Working on my new feature" > feature1.tdt
+git status
+git add feature1.tdt 
+git commit -m "Added new feature"
+git cat-file -p 7f630
+clear
+git cat-file -p 91e8709a
+cat .git/HEAD 
+echo "New content added in Feature1" >> feature1.tdt 
+git status
+git add feature1.tdt 
+git status
+git commit -m "Updated content"
+cat .git/refs/heads/feature/my-feature1 
+cat .git/HEAD 
+clear
+ls .git/refs/heads/
+history > git_day4
+history > git_day4.txt
