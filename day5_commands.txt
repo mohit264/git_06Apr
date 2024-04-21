@@ -1,0 +1,103 @@
+ git switch master
+ git status
+ git add .
+ git status
+ clear
+ git commit -m "Added Day4 files and updated diagram"
+ git status
+ git ls-files
+ clear
+ git tag
+ git tag -a Day5 -m "Day5 understanding"
+ git tag
+ git cat-file -t Day5
+ git cat-file -p Day5
+ clear
+ git log -1
+ git cat-file -p Day5
+ echo "Created new Tag on Day5" > tag.txt
+ git add .
+ git status
+ git commit -m "Added tag File"
+ git log -1
+ git cat-file -p e5a7a0f8260d
+ clear
+ cat .git/refs/tags/Day5
+ cat-file -p 9928087efdcd78c
+ git cat-file -p 9928087efdcd78c
+ git log -2
+ cat .git/refs/tags/Day5
+ git cat-file -t 9928087efdcd78c7d52b2c3ca1a7c7dc718a023
+ git cat-file -p 9928087efdcd78c7d52b2c3ca1a7c7dc718a023
+ git tag
+ git tag sometag
+ git tag
+ git log -1
+ clear
+ cat .git/refs/tags/Day5 
+ cat .git/refs/tags/sometag 
+ git log -1
+ git cat-file -p 9928087efdcd78c7
+ git cat-file -t 9928087efdcd78c7
+ clear
+ cat .git/refs/tags/sometag 
+ git log -1
+ git cat-file -t e5a7a0f8260
+ cat .git/refs/tags/Day5 
+ git cat-file -p Day5
+ git cat-file -p sometag
+ git chekout Day5
+ git checkout Day5
+ git checkout master
+ clear
+ cat .git/HEAD 
+ git switch feature/my-feature1 
+ cat .git/HEAD 
+ cat .git/refs/heads/master
+ cat .git/refs/heads/feature/my-feature1 
+ clear
+ git switch master
+ cat .git/HEAD 
+ clear
+ git log
+ clear
+ git checkout ecfc9a7506a98bc
+ git cat-file -p ecfc9a7
+ clear
+ git status
+ cat .git/HEAD 
+ echo "Started working on Federated Authentication" > Federated_start.txt
+ git status
+ git add Federated_start.txt 
+ git status
+ git commit -m "implitmented code for Federated Auth"
+ clear
+ cat .git/HEAD 
+ git ca-file -p 2abdf25
+ git cat-file -p 2abdf25
+ echo "Completed Implementation of Federated Authentication" > Federated_End.txt
+ clear
+ git status
+ git add .
+ git status
+ cat .git/HEAD 
+ clear
+ git commit -m "Federated Auth POC done"
+ cat .git/HEAD 
+ git switch master
+ cat .git/refs/heads/master 
+ clear
+ cat .git/HEAD 
+ git checkout 56fc
+ cat .git/HEAD 
+ clear
+ git switch master
+ clear
+ cat .git/HEAD 
+ cat .git/refs/master
+ cat .git/refs/heads/master 
+ echo "some temp" > file_temp.txt
+ git add .
+ git commit -m "Added temp file"
+ cat .git/HEAD 
+ cat .git/refs/heads/master 
