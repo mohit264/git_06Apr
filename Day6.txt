@@ -1,0 +1,126 @@
+cd /d/git_06_04_24/
+git log -1
+git cat-file -p 32c4c3b33d
+git cat-file -p 509da6d1f
+git cat-file -p f29b5ec66e8
+git cat-file -p 77ba83879b1d
+git cat-file -p aec4c3631200
+clear
+echo "Hello World" | git hash-object --stdin
+shasum
+echo "Hello World" | shasum
+echo "blob 11\0Hello World" | shasum
+echo -e "blob 11\0Hello World" | shasum
+echo -e -n "Hello World" | git-hash 
+echo -e -n "Hello World" | git-hash 
+echo -e -n "Hello World" | git hash-object
+echo -e -n "Hello World" | git hash-object --stdin
+echo -n "Hello World" | git hash-object --stdin
+clear
+echo -n "Hello World" | git hash-object --stdin
+echo -n "Hello World" | shasum
+echo -e -n "blob 11\0Hello World" | shasum
+clear
+git cat-file -p f29b5ec66e8
+git status
+clear
+git branch master2
+git log -1
+git branch feature/user-reg
+git branch feature/user-auth
+git branch a
+git branch
+git branch -a
+git branch -D a
+clear
+ls .git/refs/heads/
+ls .git/refs/heads/feature/
+cat .git/refs/heads/feature/my-feature1 
+cat .git/refs/heads/maste
+cat .git/refs/heads/feature/user-reg 
+cat .git/refs/heads/feature/user-auth 
+git branch
+clear
+cat .git/HEAD 
+cat .git/refs/heads/feature/user-reg 
+git switch feature/user-auth
+cat .git/HEAD 
+clear
+vim user-reg.c
+cat user-reg.c 
+git status
+git restore obj_model.sw
+git status
+clear
+git status
+git commit -a -m "Added User Authentication Functionality"
+git -a commit -m "Added User Authentication Functionality"
+git add .
+git status
+clear
+git commit -m "Added User Authentication Functionality"
+cat .git/refs/heads/feature/user-auth 
+git status
+git add .
+git status
+git co
+git commit
+ git commit -h
+git add -h
+clear
+git status
+git log -1
+git switch feature/user-reg 
+git cat-file -p d7abf61d7
+git cat-file -p ss
+git cat-file -p 95588a18274
+clear
+vim main.c
+cat main.c 
+git add .
+git status
+clear
+git commit -m "Added User Registration implementation"
+cat .git/refs/heads/feature/user-auth 
+git cat-file -p 27c7248
+clear
+git branch
+cat main.c 
+git cat-file -p d7abf61
+git cat-file -p 95588a18274215
+git cat-file -p 3d71c27b361d33
+clear
+git cat-file -p 3d71c27b361d33
+cat main.c 
+clear
+git merge feature/user-auth
+vim main.c 
+git status
+vim main.c 
+git status
+clear
+git add main.c 
+git status
+git commit
+git status
+clear
+git log -1
+git cat-file -p 9fe9e2f1d719b7d0
+clear
+cat .git/refs/heads/feature/user-auth 
+git cat-file -p d7abf61d
+git cat-file -p 95588a1
+clear
+git cat-file -p 3d71c27b361d3
+cat main.c 
+clear
+git switch feature/user-auth 
+cat main.c 
+clear
+git merge feature/user-reg 
+git log -1
+cat .git/refs/heads/master
+git switch master
+clear
+git merge feature/user-reg 
+history > Day6.txt
