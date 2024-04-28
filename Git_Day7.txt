@@ -1,0 +1,82 @@
+ git push
+ clear
+ git switch master2
+ cat .git/HEAD 
+ clear
+ git rev-parse HEAD
+ cat .git/HEAD 
+ cat .git/refs/heads/master
+ cat .git/refs/heads/master2
+ clear
+ git switch master
+ git rev-parse HEAD
+ git cat-file -p f55c3ec0bba3e
+ git switch master2
+ clear
+ git rev-parse HEAD
+ git checkout -b feature/user2-auth
+ clear
+ vim main.c
+ git status
+ git add main.c 
+ git status
+ rm Day6.txt.bak 
+ rm merge.sw 
+ clear
+ git status
+ git commit -m "Added User2 Login Functionality"
+ git log -2
+ clear
+ git log -2
+ switch master2
+ git switch master2
+ git rev-parse HEAD
+ clear
+ echo "Critical Bug Fixed" > bug_fix.c
+ git status
+ git add .
+ git commit -m "Added Bug Fix Pathch"
+ git switch feature/user2-auth 
+ clear
+ git merge master2
+ git log -1
+ git cat-file -p 348cdab025e7
+ clear
+ git switch master2
+ git merge feature/user2-auth 
+ clear
+ git switch 32c4c3b33
+ git checkout 32c4c3b33
+ git branch master3
+ git switch master3
+ clear
+ git checkout -b feature/user3-auth
+ vim login.c
+ cat login.c 
+ clear
+ git add
+ git add .
+ git status
+ git commit -m "Added Login file by Anuja"
+ git switch master3
+ clear
+ echo "Fixing Critical bug in Production" > bug_fix.c
+ git add .
+ git status
+ git commit -m "Fixed Bug in the Production"
+ git checkout -b feature/user3-auth
+ git checkout feature/user3-auth
+ clear
+ git cat-file -p e186
+ git rebase master3
+ git status
+ clear
+ git log -1
+ git cat-file -p 4c9565efc
+ git cat-file -p adeba84e20a
+ clear
+ git cat-file -p e1861e1
+ git log -1
+ git cat-file -p 4c9565ef
+ clear
+ history > Day7.txt
