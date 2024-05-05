@@ -1,0 +1,113 @@
+clear
+git show-ref master
+git pull
+git show-ref master
+clear
+git log -3
+clear
+git show-ref master
+git fetch
+clear
+ls .git/refs
+git show-ref master
+git merge origin/master
+git cat-file -p 61c81f0
+clear
+git cat-file -p 2c8bf532e2f1
+echo "Today's is the last day of the git" > git_final_day.txt
+git status
+git add .
+git commit -m "added final text file"
+clear
+git log -1
+git show-ref master
+git push
+git fetch
+clear
+git show-ref master
+git merge origin/master
+git log -1
+git cat-file -p d098f2b8a0
+clear
+git checkout origin/master
+git switch master
+clear
+git show-ref 
+git show-ref master
+clear
+git push
+git show-ref master
+git clear
+clear
+git pull
+git add .
+git statu
+git status
+clear
+git commit
+git commit -m "Added git fetch and merge = pull diagram"
+git push
+clear
+echo "Day 9 Reset Understanding 1" > 9_1.txt
+git status
+git add .
+git status
+clear
+git commit -m "Added 9_1.txt"
+echo "Day 9 Reset Understanding 2" > 9_2.txt
+git add .
+git status
+clear
+git commit -m "Commit 2.0 --> 9_2.txt"
+clear
+git reset --soft HEAD~1
+git status
+git rev-parse HEAD
+clear
+git commit -m "Commit 2.1 --> 9_2.txt"
+git log -2
+clear
+git reset --mixed HEAD~1
+git status
+git reset HEAD~1
+git status
+git swithc master2
+git switch master2
+git status
+git switch master
+git status
+git switch master2
+git switch master
+git status
+clear
+git log -1
+git status
+git ref-log
+git reflog
+clear
+git log
+clear
+git add .
+git status
+git commmit -m "Added 1 &2"
+git commit -m "Added 1 &2"
+git status
+clean
+clear
+git show-ref master
+git reset
+git status
+git reset HEAD~1
+git status
+clear
+git add .
+git commit "Git reset --mixed is default of git reset"
+git commit -m "Git reset --mixed is default of git reset"
+git show-ref master
+clear
+git reset --hard HEAD~1
+git show-ref
+clear
+git show-ref master
+git status
+history > Git_Day9.txt
